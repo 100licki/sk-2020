@@ -24,11 +24,24 @@
 |   ``addr``    |                               | infirmacje o adresacji i własnościach interfejsów |
 |               |   ``ip addr``                 | informacja o wszystkich interfejsach              |
 |               |   ``ip addr show dev enp0s3`` | informacja o konkretnym interfejsie               |
-|   ``link``    | ``ip link set eth0 up(down)``| Włączenie (wyłączenie) interfejsu |
-|   ``route``   | ``ip route show``| |
-|   ``maddr``   |  | |
-|   ``neigh``   |  | |
-|   ``help``    |  | |
+|   ``link``    | | informacje i zarządzanie interfejsami sieciowymi  |
+| |``ip link`` | wyświetl informacje wszystkich interfejsów |
+| |``ip link show dev enp0s3``| wyświetl informacje konkretnego urządzenia |
+| | ``ip -s link``| wyświetla statystyki interfejsu |
+|   ``route``   |  | wyświetlenie i zmiana tablic routingu |
+| |``ip route`` |  |
+|   ``maddr``   |  | informacje i zarządzanie adresami IP multicast |
+| | ``ip maddr`` | wyświetla informacje o multicascie dla wszystkich urządzeń |
+| | ``ip maddr show dev enp0s3`` | wyświetla informacje o multicascie dla konkretnego urządzenia |
+|   ``neigh``   |  | pokazuje tablice ARP dla IPv4 |
+| | ``ip neigh`` | wyświetla tablice sąsiedztwa |
+| | ``ip neigh show dev enp0s3`` | pokazuje pamięć podręczną ARP dla konkretnego urządzenia |
+|   ``help``    |  | wyświetla listę komend i argumentów dla każdej subkomendy |
+| |``ip help``| wyświetla komendy i arguemnty subkomendy ip |
+| |``ip addr help``| wyświetla komendy i arguemnty subkomendy addr |
+| |``ip link help``| wyświetla komendy i arguemnty subkomendy link |
+| |``ip neigh help``| wyświetla komendy i arguemnty subkomendy neigh |
+
 
 
 ### Zadanie
