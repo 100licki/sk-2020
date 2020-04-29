@@ -190,6 +190,8 @@ Mając dany adres hosta i maskę znajdź:
     * D – 500 użytkowników
     * E – 2 użytkowników.
     
+    ##
+    
     | Adres sieci |  zakres hostów   | Adres Rozgłoszeniowy |
 | ----------- | -----------  | ----------- |
 | ``10.0.0.0``    | 10.0.0.1 - 10.1.255.254 | 10.1.255.255 |
